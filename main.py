@@ -3,7 +3,7 @@ b = input("zadej znak (+ - * (/ deleno s desetinim číslem //deleno bez desetin
 c = input("zadej druhý číslo: ")
 a = int(a)
 c = int(c)
-if b == "+":
+if b == "+":+
     print(a + c)
 elif b == "-":
     b = print(a - c)
@@ -13,4 +13,4 @@ elif b == "/":
     print(a / c)
 elif b == "//":
     print(a // c)
-o = input("vypneš napsáním textu vypnout: ")
+o = input("vypneš napsáním jakehokoliv textu:  ")
